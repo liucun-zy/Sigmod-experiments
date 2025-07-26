@@ -291,15 +291,15 @@ def merge_combined_images(image_types: List[str]) -> List[str]:
 
 # 配置参数
 API_CONFIG = {
-    "api_key": "sk-bukbtrswxziicqoqrcteemqvghweexwkphsdyibpfzdhjfjx",
+    "api_key": "",
     "api_url": "https://api.siliconflow.cn/v1/chat/completions",
-    "model": "Qwen/Qwen2.5-VL-72B-Instruct",
+    "model": "",
 }
 
 # 配置多个API key
 API_KEYS = [
-    "sk-igvmjaomyjwstzlsvtlktrpgsuqxdfqngaxizidcogdtgicu",
-    "sk-lwxkkduwqreomrlrbnlajsnssyfhhvkakopdkdewxzthypzv"
+    "",
+    ""
 ]
 
 # 添加超时设置
@@ -332,7 +332,9 @@ def timeout_handler(timeout_seconds):
             if error:
                 raise error[0]
             return result[0]
-        return wrapper
+        return 
+
+    
     return decorator
 
 @timeout_handler(PROCESS_TIMEOUT)
