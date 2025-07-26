@@ -27,19 +27,19 @@ class StructureEnhancementConfig:
     
     # ========== API配置 ==========
     # DeepSeek V3 API配置
-    deepseek_api_key: str = "sk-mhjyfsmkzrnxftbiqqohibxaqxoanulwmjctvtysnqknuwoq"
+    deepseek_api_key: str = ""
     deepseek_api_url: str = "https://api.siliconflow.cn/v1/chat/completions"
     deepseek_model: str = "Pro/deepseek-ai/DeepSeek-V3"
     
     # DeepSeek R1 API配置（专门用于插入未匹配章节标题）
-    deepseek_r1_api_key: str = "xUFrf8g3N6dx5Jg252hDjiskZ"
+    deepseek_r1_api_key: str = ""
     deepseek_r1_api_url: str = "https://deepseek-r1-0528.ibswufe.com:21112/v1/chat/completions"
     deepseek_r1_model: str = "deepseek-r1-0528"
     
     # Qwen VL API配置
-    qwen_api_key: str = "sk-mhjyfsmkzrnxftbiqqohibxaqxoanulwmjctvtysnqknuwoq"
+    qwen_api_key: str = ""
     qwen_api_url: str = "https://api.siliconflow.cn/v1/chat/completions"
-    qwen_model: str = "Qwen/Qwen2.5-VL-72B-Instruct"
+    qwen_model: str = ""
     
     # API通用配置
     api_timeout: int = 60
