@@ -16,9 +16,9 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-API_KEY = "sk-mhjyfsmkzrnxftbiqqohibxaqxoanulwmjctvtysnqknuwoq"
+API_KEY = ""
 API_URL = "https://api.siliconflow.cn/v1/chat/completions"
-MODEL_NAME = "Qwen/Qwen2.5-VL-72B-Instruct"
+MODEL_NAME = ""
 
 def compress_image(image_path: str, max_size_mb: float = 1.0, quality_reduction: int = 5) -> bytes:
     """
